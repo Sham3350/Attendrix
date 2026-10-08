@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign in</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="narrow">
+<h1>Attendance</h1>
+<p class="mu">Sign in with your college account.</p>
+<form onsubmit="location.href=this.role.value; return false;">
+  <label for="role">I am a</label>
+  <select id="role" name="role">
+    <option value="student.html">Student</option>
+    <option value="teacher.html">Teacher</option>
+  </select>
+  <label for="email">College email</label>
+  <input id="email" type="email" placeholder="name@college.edu">
+  <label for="pw">Password</label>
+  <input id="pw" type="password">
+  <p><button class="btn" type="submit">Sign in</button></p>
+</form>
+<p class="mu small">Your first sign-in links this phone to your account.</p>
+</main>
+</body>
+</html>

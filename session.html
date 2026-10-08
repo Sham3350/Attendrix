@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Session summary</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><a class="brand" href="teacher.html">Attendance</a><nav><a href="teacher.html">Classes</a><a href="new-session.html">New session</a><a href="login.html">Sign out</a></nav></header>
+<main>
+<h1>Session summary</h1>
+<p class="mu">Data Structures, Sec B. Today, 10:00 to 10:50.</p>
+<div class="stats">
+  <div><b>54</b><span class="mu">present</span></div>
+  <div><b>4</b><span class="mu">absent</span></div>
+  <div><b class="bad">2</b><span class="mu">rejected</span></div>
+</div>
+<div class="actions"><a class="btn" href="#">Export Excel</a><a class="btn plain" href="#">Export PDF</a></div>
+<h2>Students</h2>
+<table>
+  <tr><th>Name</th><th>Time</th><th class="r">Status</th></tr>
+  <tr><td>Divya R</td><td>10:02</td><td class="r">Present</td></tr>
+  <tr><td>Kiran B</td><td>10:02</td><td class="r">Present</td></tr>
+  <tr><td>Ravi K</td><td>10:03</td><td class="r bad">Rejected</td></tr>
+  <tr><td>Mohan C</td><td class="mu">No scan</td><td class="r mu">Absent</td></tr>
+  <tr><td>Asha L</td><td>10:04</td><td class="r">Present</td></tr>
+</table>
+</main>
+</body>
+</html>

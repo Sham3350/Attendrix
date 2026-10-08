@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>New session</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><a class="brand" href="teacher.html">Attendance</a><nav><a href="teacher.html">Classes</a><a href="new-session.html">New session</a><a href="login.html">Sign out</a></nav></header>
+<main>
+<h1>New session</h1>
+<p class="mu">Fill this in once. The code for the projector starts right after.</p>
+<form action="live.html">
+  <label for="sub">Subject</label>
+  <select id="sub"><option>Data Structures</option><option>DBMS</option><option>Operating Systems</option></select>
+  <label for="sec">Section</label>
+  <select id="sec"><option>A</option><option selected>B</option></select>
+  <label for="room">Room</label>
+  <input id="room" value="204">
+  <label for="dur">Duration (minutes)</label>
+  <input id="dur" type="number" value="50">
+  <h2>Checks</h2>
+  <label class="check"><input type="checkbox" checked>Change the code every 5 seconds</label>
+  <label class="check"><input type="checkbox" checked>Student must be near the classroom</label>
+  <label class="check"><input type="checkbox" checked>One phone per student</label>
+  <div class="actions"><button class="btn" type="submit">Start session</button></div>
+</form>
+</main>
+</body>
+</html>
